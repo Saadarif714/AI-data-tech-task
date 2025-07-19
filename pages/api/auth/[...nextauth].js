@@ -68,4 +68,5 @@ export default NextAuth({
   },
   secret: process.env.NEXTAUTH_SECRET || "somesecretkey",
 });
-export { handler as GET, handler as POST };
+
+// export { handler as GET, handler as POST };
